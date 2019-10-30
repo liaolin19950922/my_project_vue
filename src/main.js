@@ -7,6 +7,9 @@ import router from './router'
 // 引入elemen-u控件
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+// 引入主页样式
+import '@/styles/index.scss'
+import 'font-awesome/scss/font-awesome.scss'
 
 Vue.config.productionTip = false
 // 使用use命令后才起作用
